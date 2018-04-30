@@ -30,6 +30,10 @@ git clone https://github.com/huytd/kanelm
 cd kanelm
 yarn install
 elm-package
+cp src/example.config.js src/config.js
+# Using your JSONbin.io account, create a new bin with this content:
+# {"taskInput": "", "tasks": [], "movingTask": null}
+# Put the created bin's URL and your account's secret key into your config.js.
 yarn build
 
 # gonban
