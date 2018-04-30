@@ -40,5 +40,5 @@ yarn build
 cd $GOPATH/src/github.com/imdario/gonban
 cp $OLDPWD/dist/dist.js www
 go-bindata www/dist.js
-go build
+go install
 ```
