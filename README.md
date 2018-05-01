@@ -20,7 +20,7 @@ You need these resources:
 
 ### Build
 
-*This instructions have been tested only under Linux.*
+*These instructions have been tested only under Linux.*
 
 ```
 go get -u -v github.com/imdario/gonban
